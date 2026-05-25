@@ -7,8 +7,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Fortune Tracker">
 <meta name="theme-color" content="#7ECEC4">
-<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I0E4RTZERiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQTlEOEYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iMTEyIiBmaWxsPSJ1cmwoI2JnKSIvPgoKICA8IS0tIENvaW4gY2lyY2xlIC0tPgogIDxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMTg1IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjM2Ii8+CgogIDwhLS0gRG9sbGFyIHZlcnRpY2FsIGJhciAoZXh0ZW5kcyBhYm92ZSBhbmQgYmVsb3cpIC0tPgogIDxsaW5lIHgxPSIyNTYiIHkxPSI5NiIgeDI9IjI1NiIgeTI9IjQxNiIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIzMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CgogIDwhLS0gUyBzaGFwZSBkcmF3biBhcyBiZXppZXIgY3VydmVzIC0gdG9wIGN1cnZlIG9mIFMgLS0+CiAgPCEtLSBUb3Agb2YgUzogc3RhcnRzIGF0IHJpZ2h0LCBjdXJ2ZXMgdXAgYW5kIG92ZXIgdG8gdGhlIGxlZnQgLS0+CiAgPHBhdGggZD0iTSAzMjAgMjMwIAogICAgICAgICAgIEMgMzIwIDE3NSwgMTkyIDE3NSwgMTkyIDIyOAogICAgICAgICAgIEMgMTkyIDI3MCwgMzIwIDI3MCwgMzIwIDMxMgogICAgICAgICAgIEMgMzIwIDM2NSwgMTkyIDM2NSwgMTkyIDMxMiIKICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMzAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4=">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I0E4RTZERiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQTlEOEYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iMTEyIiBmaWxsPSJ1cmwoI2JnKSIvPgoKICA8IS0tIENvaW4gY2lyY2xlIC0tPgogIDxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMTg1IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjM2Ii8+CgogIDwhLS0gRG9sbGFyIHZlcnRpY2FsIGJhciAoZXh0ZW5kcyBhYm92ZSBhbmQgYmVsb3cpIC0tPgogIDxsaW5lIHgxPSIyNTYiIHkxPSI5NiIgeDI9IjI1NiIgeTI9IjQxNiIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIzMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CgogIDwhLS0gUyBzaGFwZSBkcmF3biBhcyBiZXppZXIgY3VydmVzIC0gdG9wIGN1cnZlIG9mIFMgLS0+CiAgPCEtLSBUb3Agb2YgUzogc3RhcnRzIGF0IHJpZ2h0LCBjdXJ2ZXMgdXAgYW5kIG92ZXIgdG8gdGhlIGxlZnQgLS0+CiAgPHBhdGggZD0iTSAzMjAgMjMwIAogICAgICAgICAgIEMgMzIwIDE3NSwgMTkyIDE3NSwgMTkyIDIyOAogICAgICAgICAgIEMgMTkyIDI3MCwgMzIwIDI3MCwgMzIwIDMxMgogICAgICAgICAgIEMgMzIwIDM2NSwgMTkyIDM2NSwgMTkyIDMxMiIKICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMzAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4=">
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExMiIgZmlsbD0iIzczNzNCOSIvPgogIDxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMTg1IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjM2Ii8+CiAgPGxpbmUgeDE9IjI1NiIgeTE9Ijk2IiB4Mj0iMjU2IiB5Mj0iNDE2IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMwIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNIDMyMCAyMzAgQyAzMjAgMTc1LCAxOTIgMTc1LCAxOTIgMjI4IEMgMTkyIDI3MCwgMzIwIDI3MCwgMzIwIDMxMiBDIDMyMCAzNjUsIDE5MiAzNjUsIDE5MiAzMTIiCiAgICBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExMiIgZmlsbD0iIzczNzNCOSIvPgogIDxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMTg1IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjM2Ii8+CiAgPGxpbmUgeDE9IjI1NiIgeTE9Ijk2IiB4Mj0iMjU2IiB5Mj0iNDE2IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMwIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNIDMyMCAyMzAgQyAzMjAgMTc1LCAxOTIgMTc1LCAxOTIgMjI4IEMgMTkyIDI3MCwgMzIwIDI3MCwgMzIwIDMxMiBDIDMyMCAzNjUsIDE5MiAzNjUsIDE5MiAzMTIiCiAgICBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+">
 <title>Fortune Tracker</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap');
@@ -287,8 +287,13 @@
     <div id="syncIndicator" style="display:none;font-size:11px;color:var(--text-muted);text-align:center;padding:4px 0 8px;letter-spacing:0.5px"></div>
   </div>
 
-  <div class="summary">
-    <div class="summary-label">本月結餘</div>
+  <div class="summary" style="position:relative">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+      <div class="summary-label" style="margin-bottom:0">本月結餘</div>
+      <button onclick="openPendingPanel()" id="pendingBadge" style="display:none;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.25);border-radius:20px;padding:4px 10px;font-size:12px;color:white;cursor:pointer;display:flex;align-items:center;gap:4px;transition:background 0.2s" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.12)'">
+        <span>📎</span><span id="pendingCount" style="font-family:'DM Mono',monospace;font-weight:600">0</span><span style="font-size:10px;opacity:0.8">待分</span>
+      </button>
+    </div>
     <div class="summary-balance positive" id="balance">$0</div>
     <div class="summary-row">
       <div class="summary-item">
@@ -310,16 +315,22 @@
 
   <div class="list-section" id="txList"></div>
 
-  <div class="bottom-nav">
-    <button class="nav-btn active">
+  <div class="bottom-nav" style="padding:10px 12px 20px">
+    <button class="nav-btn active" onclick="setPage('home',this)">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
       總覽
     </button>
-    <div style="flex:1"></div>
+    <button class="nav-btn" onclick="showToast('📊 報表功能即將推出！')">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z"/></svg>
+      報表
+    </button>
     <button class="fab" onclick="openModal()">
       <svg viewBox="0 0 24 24" fill="white"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
     </button>
-    <div style="flex:1"></div>
+    <button class="nav-btn" onclick="showToast('💳 繳費功能即將推出！')">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.11 0-2 .89-2 2v12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/></svg>
+      繳費
+    </button>
     <button class="nav-btn" onclick="openSettings()">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.14 12.94c.04-.3.06-.61.06-.94s-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
       設定
@@ -407,6 +418,20 @@
     </div>
 
     <button class="submit-btn" id="submitBtn" onclick="submitTransaction()">✓ 記錄這筆</button>
+  </div>
+</div>
+
+<!-- 待分 Panel Modal -->
+<div class="modal-overlay" id="pendingPanelOverlay" onclick="if(event.target===this)closePendingPanel()">
+  <div class="modal" onclick="event.stopPropagation()" style="padding-bottom:36px">
+    <div class="modal-handle"></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+      <div style="width:36px"></div>
+      <div class="modal-title" style="margin-bottom:0">📎 待分項目</div>
+      <button onclick="closePendingPanel()" style="background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:20px;padding:4px 8px">✕</button>
+    </div>
+    <p style="font-size:12px;color:var(--text-muted);text-align:center;margin-bottom:16px">以下為所有勾選「待收回」的記錄</p>
+    <div id="pendingPanelList"></div>
   </div>
 </div>
 
@@ -682,6 +707,52 @@ function updateList() {
 function render() {
   updateSummary();
   updateList();
+  updatePendingBadge();
+}
+
+function updatePendingBadge() {
+  const count = transactions.filter(t => t.pending).length;
+  const badge = document.getElementById('pendingBadge');
+  const countEl = document.getElementById('pendingCount');
+  if (count > 0) {
+    badge.style.display = 'flex';
+    countEl.textContent = count;
+  } else {
+    badge.style.display = 'none';
+  }
+}
+
+function openPendingPanel() {
+  const allCats = [...CATS.expense, ...CATS.income];
+  const pending = transactions.filter(t => t.pending);
+  const list = document.getElementById('pendingPanelList');
+  if (pending.length === 0) {
+    list.innerHTML = '<div style="text-align:center;padding:32px;color:var(--text-muted);font-size:13px">目前沒有待收回項目</div>';
+  } else {
+    list.innerHTML = pending.map(t => {
+      const cat = allCats.find(c => c.id === t.cat) || { emoji: '📦', name: '其他' };
+      const bgColor = t.type === 'income' ? 'rgba(74,222,128,0.12)' : 'rgba(248,113,113,0.12)';
+      return `
+        <div class="transaction" onclick="closePendingPanel();setTimeout(()=>openEditModal('${t.id}'),300)">
+          <div class="tx-icon" style="background:${bgColor}">${cat.emoji}</div>
+          <div class="tx-info">
+            <div class="tx-name">${t.note || cat.name} 📎</div>
+            <div class="tx-cat">${t.date}${t.pendingNote ? ' · ' + t.pendingNote : ''}</div>
+          </div>
+          <div class="tx-amount ${t.type}">${t.type === 'income' ? '+' : '-'}${fmt(t.amount)}</div>
+        </div>`;
+    }).join('');
+  }
+  document.getElementById('pendingPanelOverlay').classList.add('open');
+}
+
+function closePendingPanel() {
+  document.getElementById('pendingPanelOverlay').classList.remove('open');
+}
+
+function setPage(p, el) {
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  if (el) el.classList.add('active');
 }
 
 function changeMonth(dir) {
